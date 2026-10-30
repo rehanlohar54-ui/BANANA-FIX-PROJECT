@@ -810,7 +810,7 @@ import React, { useState } from 'react';
           {/* Visit Our Physical Store */}
           <section className="bg-white py-16 md:py-20 px-4">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
-              <div className="px-3 py-3">
+              <div className="px-7 py-7">
                 <span className="inline-flex items-center rounded-full border border-[#FAD4C7] bg-[#FFF0EB] px-3 py-1 text-xs font-semibold tracking-widest text-[#D84315]">Our Retail Outlet</span>
                 <h2 className="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight text-gray-950">Drop By Our Flagship Store</h2>
                 <p className="mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-gray-600">Experience our live snack counters and taste authentic Khandeshi products right where they are made.</p>
