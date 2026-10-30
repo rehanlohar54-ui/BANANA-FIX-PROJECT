@@ -876,8 +876,8 @@ import React, { useState } from 'react';
                 </div>
 
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <a href="https://www.google.com/maps/search/?api=1&amp;query=Banana+Chipso+Enterprises+Dehu+Yelwada+Road+412109" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-[#B10E20] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#970B1A]"><i className="fa-solid fa-location-arrow"></i>Get Directions</a>
-                  <a href="https://wa.me/917057446409" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-[#009B68] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#00855A]"><i className="fa-regular fa-message"></i>Chat on WhatsApp</a>
+                  <a href="" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-[#B10E20] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#970B1A]"><i className="fa-solid fa-location-arrow"></i>Get Directions</a>
+                  <a href="" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-[#009B68] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#00855A]"><i className="fa-regular fa-message"></i>Chat on WhatsApp</a>
                 </div>
               </div>
 
@@ -893,7 +893,7 @@ import React, { useState } from 'react';
                 </div>
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 rounded-2xl bg-white px-4 py-4 text-sm">
                   <span className="text-gray-600">Open 7 Days • 8:00 AM – 11:00 PM</span>
-                  <a href="https://www.google.com/maps/search/?api=1&amp;query=Banana+Chipso+Enterprises+Dehu+Yelwada+Road+412109" target="_blank" rel="noreferrer" className="font-semibold text-[#B10E20] hover:underline">Open in Google Maps →</a>
+                  <a href="" target="_blank" rel="noreferrer" className="font-semibold text-[#B10E20] hover:underline">Open in Google Maps →</a>
                 </div>
               </div>
             </div>

@@ -992,3 +992,15 @@ body { background-color: #fcf9f3; color: #28232a; }
 #ajHeroViewport .aj-hero-slide > * {
     padding:30px !important;
 }
+
+
+
+/* Final Navbar Layer Fix */
+#root header,
+#root > header {
+  z-index: 50 !important;
+}
+
+.aj-overlay {
+  z-index: 200 !important;
+}
