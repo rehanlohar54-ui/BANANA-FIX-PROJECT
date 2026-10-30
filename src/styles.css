@@ -989,3 +989,6 @@ body { background-color: #fcf9f3; color: #28232a; }
   }
 }
 
+#ajHeroViewport .aj-hero-slide > * {
+    padding:15px !important;
+}

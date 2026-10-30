@@ -37,15 +37,15 @@ import React, { useState } from 'react';
     // Regular Family Packs
     const familyPacks = [
       { id: 101, name: 'Long Banana Chips', discount: '20% OFF', rating: '4.9', desc: 'Authentic snack handcrafted with traditional spices.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 102, name: 'Garlic Flavour Banana Chips | Aapla Jalgaonwala', tag: 'GARLIC', rating: '4.9', desc: 'Crispy banana chips with a rich Garlic flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 103, name: 'Pani Poori Flavour Banana Chips | Aapla Jalgaonwala', tag: 'PANI POORI', rating: '4.9', desc: 'Crispy banana chips with a tangy Pani Poori flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 104, name: 'Peri Peri Flavour Banana Chips | Aapla Jalgaonwala', tag: 'BEST SELLER', rating: '4.9', desc: 'Crispy banana chips with a spicy Peri Peri flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 105, name: 'Salty Flavour Banana Chips | Aapla Jalgaonwala', tag: 'SALTY', rating: '4.9', desc: 'Crispy banana chips with a classic salty taste.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 106, name: 'Masala Flavour Banana Chips | Aapla Jalgaonwala', tag: 'BEST SELLER', rating: '4.9', desc: 'Crispy banana chips with a flavourful masala seasoning.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 107, name: 'Pudina Flavour Banana Chips | Aapla Jalgaonwala', tag: 'PUDINA', rating: '4.9', desc: 'Crispy banana chips with a refreshing minty Pudina flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 108, name: 'Cheese Flavour Banana Chips | Aapla Jalgaonwala', tag: 'BEST SELLER', rating: '4.9', desc: 'Crispy banana chips with a rich cheesy flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 109, name: 'Black Pepper Flavour Banana Chips | Aapla Jalgaonwala', tag: 'BLACK PEPPER', rating: '4.9', desc: 'Crispy banana chips with a bold Black Pepper flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
-      { id: 110, name: 'Tomato Flavour Banana Chips | Aapla Jalgaonwala', tag: 'TOMATO', rating: '4.9', desc: 'Crispy banana chips with a tangy Tomato flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' }
+      { id: 102, name: 'Garlic Flavour Banana Chips | banana chipso', tag: 'GARLIC', rating: '4.9', desc: 'Crispy banana chips with a rich Garlic flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
+      { id: 103, name: 'Pani Poori Flavour Banana Chips | banana chipso', tag: 'PANI POORI', rating: '4.9', desc: 'Crispy banana chips with a tangy Pani Poori flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
+      { id: 104, name: 'Peri Peri Flavour Banana Chips | banana chipso', tag: 'BEST SELLER', rating: '4.9', desc: 'Crispy banana chips with a spicy Peri Peri flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
+      { id: 105, name: 'Salty Flavour Banana Chips | banana chipso', tag: 'SALTY', rating: '4.9', desc: 'Crispy banana chips with a classic salty taste.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
+      { id: 106, name: 'Masala Flavour Banana Chips | banana chipso', tag: 'BEST SELLER', rating: '4.9', desc: 'Crispy banana chips with a flavourful masala seasoning.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
+      { id: 107, name: 'Pudina Flavour Banana Chips | banana chipso', tag: 'PUDINA', rating: '4.9', desc: 'Crispy banana chips with a refreshing minty Pudina flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
+      { id: 108, name: 'Cheese Flavour Banana Chips | banana chipso', tag: 'BEST SELLER', rating: '4.9', desc: 'Crispy banana chips with a rich cheesy flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
+      { id: 109, name: 'Black Pepper Flavour Banana Chips | banana chipso', tag: 'BLACK PEPPER', rating: '4.9', desc: 'Crispy banana chips with a bold Black Pepper flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
+      { id: 110, name: 'Tomato Flavour Banana Chips |banana chipso', tag: 'TOMATO', rating: '4.9', desc: 'Crispy banana chips with a tangy Tomato flavour.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' }
     ];
 
     // Traditional Farsaan Section
@@ -62,9 +62,9 @@ import React, { useState } from 'react';
 
     // Khandeshi Kitchen Essentials (Updated with all items from screenshots)
     const masalas = [
-      { id: 501, name: 'Goda Masala', rating: '4.9', desc: 'Authentic Jalgaon snack handcrafted with traditional spices.', priceRange: '₹70 – ₹340', origRange: '', sizes: '50g – 200g' },
-      { id: 502, name: 'Kanda Masala', rating: '4.9', desc: 'Authentic Jalgaon snack handcrafted with traditional spices.', priceRange: '₹70 – ₹340', origRange: '', sizes: '50g – 200g' },
-      { id: 503, name: 'Kala Kitchen Masala', rating: '4.9', desc: 'Authentic Jalgaon snack handcrafted with traditional spices.', priceRange: '₹70 – ₹340', origRange: '', sizes: '50g – 200g' },
+      { id: 501, name: 'Goda Masala', rating: '4.9', desc: 'Authentic chipso snack handcrafted with traditional spices.', priceRange: '₹70 – ₹340', origRange: '', sizes: '50g – 200g' },
+      { id: 502, name: 'Kanda Masala', rating: '4.9', desc: 'Authentic chipso snack handcrafted with traditional spices.', priceRange: '₹70 – ₹340', origRange: '', sizes: '50g – 200g' },
+      { id: 503, name: 'Kala Kitchen Masala', rating: '4.9', desc: 'Authentic chipso snack handcrafted with traditional spices.', priceRange: '₹70 – ₹340', origRange: '', sizes: '50g – 200g' },
       { id: 504, name: 'Shevbhaji Masala – Traditional Spice for Authentic Shevbhaji', discount: '18% OFF', badge: 'SPICY', rating: '4.9', desc: 'Traditional spice blend for authentic Shevbhaji.', priceRange: '₹70 – ₹340', origRange: '', sizes: '50g – 200g' },
       { id: 505, name: 'Regular Masala – Authentic Indian Spice Blend for Every...', discount: '18% OFF', rating: '4.9', desc: 'Authentic Indian spice blend for every dish.', priceRange: '₹45 – ₹170', origRange: '₹45 – ₹170', sizes: '50g – 200g' },
       { id: 506, name: 'Mutton Masala – Rich and Aromatic Spice Blend for...', discount: '18% OFF', rating: '4.9', desc: 'Rich and aromatic spice blend for mutton.', priceRange: '₹45 – ₹170', origRange: '₹45 – ₹170', sizes: '50g – 200g' },
@@ -73,8 +73,8 @@ import React, { useState } from 'react';
 
     // Potato Chips Section
     const potatoChips = [
-      { id: 301, name: 'Spicy Potato Chiwda', discount: '11% OFF', rating: '4.9', desc: 'Authentic Jalgaon snack handcrafted with traditional spices.', priceRange: '₹80 - ₹400', sizes: '200g - 1kg' },
-      { id: 302, name: 'Sweet Potato Chiwda', discount: '11% OFF', rating: '4.9', desc: 'Authentic Jalgaon snack handcrafted with traditional spices.', priceRange: '₹80 - ₹400', sizes: '200g - 1kg' },
+      { id: 301, name: 'Spicy Potato Chiwda', discount: '11% OFF', rating: '4.9', desc: 'Authentic chipso snack handcrafted with traditional spices.', priceRange: '₹80 - ₹400', sizes: '200g - 1kg' },
+      { id: 302, name: 'Sweet Potato Chiwda', discount: '11% OFF', rating: '4.9', desc: 'Authentic chipso snack handcrafted with traditional spices.', priceRange: '₹80 - ₹400', sizes: '200g - 1kg' },
     ];
 
     // Khandeshi Chutneys
@@ -780,12 +780,12 @@ import React, { useState } from 'react';
                       <span className="border border-emerald-200 bg-emerald-50 text-emerald-700 rounded px-2 py-1 font-bold"><i className="fa-regular fa-circle-check mr-1"></i>Real Reviews</span>
                       <span className="text-gray-300">•</span>
                     </div>
-                    <p className="text-xs text-[#7A706B] mb-3">₹1,000 Booking Advance – ₹4,999 Full Payment</p>
+                    <p className="text-xs text-[#7A706B] mb-3">₹1,000 Advance Booking – ₹4,999 Total Festive Price</p>
                     <h3 className="text-base font-extrabold text-[#1A1A1A] leading-snug mb-2">
-                      Diwali Special Offer Box – Aapla Jalgaonwala Women’s Business Group...
+                      Festive Celebration Mega Gift Box – Banana Chipso Artisans
                     </h3>
                     <p className="text-sm text-[#7A706B] leading-relaxed mb-3">
-                      Complete Diwali in One Box! 4.5kg+ Farsan, 2.5kg Sweets, Lakshmi Puja Kit, Safe Firecrackers, Rangoli Kit &amp; Jalgaonwa...
+                      A grand festive collection featuring 4.5kg+ crispy farsaan, 2.5kg traditional sweets, a complete Lakshmi Puja kit, eco-friendly crackers, and special Banana Chipso surprises
                     </p>
                     <div className="flex flex-wrap gap-2 mb-5 text-[10px] font-bold">
                       <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 rounded px-2 py-1"><i className="fa-solid fa-circle mr-1 text-[7px]"></i>100% Veg</span>
@@ -797,7 +797,7 @@ import React, { useState } from 'react';
                         <p className="text-[10px] text-[#7A706B]">2 pack options</p>
                       </div>
                       <button type="button" className="bg-[#B10E20] hover:bg-[#970B1A] text-white rounded-xl px-4 py-2.5 text-xs font-extrabold whitespace-nowrap transition">
-                        <i className="fa-solid fa-bag-shopping mr-1.5"></i>Select
+                        <i className="fa-solid fa-bag-shopping mr-1.5"></i>Choose Pack
                       </button>
                     </div>
                   </div>
@@ -810,7 +810,7 @@ import React, { useState } from 'react';
           {/* Visit Our Physical Store */}
           <section className="bg-white py-16 md:py-20 px-4">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
-              <div>
+              <div className="px-3 py-3">
                 <span className="inline-flex items-center rounded-full border border-[#FAD4C7] bg-[#FFF0EB] px-3 py-1 text-xs font-semibold tracking-widest text-[#D84315]">Our Retail Outlet</span>
                 <h2 className="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight text-gray-950">Drop By Our Flagship Store</h2>
                 <p className="mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-gray-600">Experience our live snack counters and taste authentic Khandeshi products right where they are made.</p>
@@ -838,7 +838,7 @@ import React, { useState } from 'react';
                 </div>
 
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <a href="https://www.google.com/maps/search/?api=1&amp;query=Aapla+Jalgaonwala+Enterprises+Dehu+Yelwada+Road+412109" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-[#B10E20] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#970B1A]"><i className="fa-solid fa-location-arrow"></i>Get Directions</a>
+                  <a href="https://www.google.com/maps/search/?api=1&amp;query=Banana+Chipso+Enterprises+Dehu+Yelwada+Road+412109" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-[#B10E20] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#970B1A]"><i className="fa-solid fa-location-arrow"></i>Get Directions</a>
                   <a href="https://wa.me/917057446409" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-[#009B68] px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-[#00855A]"><i className="fa-regular fa-message"></i>Chat on WhatsApp</a>
                 </div>
               </div>
@@ -855,7 +855,7 @@ import React, { useState } from 'react';
                 </div>
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 rounded-2xl bg-white px-4 py-4 text-sm">
                   <span className="text-gray-600">Open 7 Days • 8:00 AM – 11:00 PM</span>
-                  <a href="https://www.google.com/maps/search/?api=1&amp;query=Aapla+Jalgaonwala+Enterprises+Dehu+Yelwada+Road+412109" target="_blank" rel="noreferrer" className="font-semibold text-[#B10E20] hover:underline">Open in Google Maps →</a>
+                  <a href="https://www.google.com/maps/search/?api=1&amp;query=Banana+Chipso+Enterprises+Dehu+Yelwada+Road+412109" target="_blank" rel="noreferrer" className="font-semibold text-[#B10E20] hover:underline">Open in Google Maps →</a>
                 </div>
               </div>
             </div>
@@ -871,13 +871,13 @@ import React, { useState } from 'react';
                 <div>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-400 font-black text-[#A20F20]">AJ</div>
-                    <div><div className="font-extrabold text-lg leading-tight">Aapla Jalgaonwala</div><div className="text-xs font-bold uppercase tracking-wide text-amber-400">Authentic Khandeshi Taste</div></div>
+                    <div><div className="font-extrabold text-lg leading-tight">BANANA CHIPSO</div><div className="text-xs font-bold uppercase tracking-wide text-amber-400">Pure Tradition</div></div>
                   </div>
-                  <p className="max-w-sm text-sm leading-relaxed text-stone-400">Bringing the authentic crunch, spicy masalas, and sacred Upwas specialties of Jalgaon, Maharashtra directly to your doorsteps across India.</p>
+                  <p className="max-w-sm text-sm leading-relaxed text-stone-400">Delivering farm-fresh banana chips, hand-pounded spices, and crunchy regional snacks straight from our kitchen to your home.</p>
                   <div className="mt-6 space-y-2 text-sm text-stone-400">
-                    <p><i className="fa-solid fa-location-dot mr-3 text-orange-500"></i>Aapla JalgaonWala Enterprises, Dehu - Yelwadi Rd, near by yelwadi, kaman, Dehu, Yelwadi, Maharashtra 412109</p>
-                    <p><i className="fa-solid fa-phone mr-3 text-orange-500"></i>+91 70574 46409</p>
-                    <p><i className="fa-regular fa-envelope mr-3 text-orange-500"></i>info@aaplajalgaonwala.com</p>
+                    <p><i className="fa-solid fa-location-dot mr-3 text-orange-500"></i>Pune , Maharashtra 412109</p>
+                    <p><i className="fa-solid fa-phone mr-3 text-orange-500"></i>+91 98849 54958</p>
+                    <p><i className="fa-regular fa-envelope mr-3 text-orange-500"></i>info@bananachipso.com</p>
                   </div>
                   <div className="mt-5 flex gap-3 text-stone-400">
                     <a href="#" aria-label="Instagram" className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#211D1A] hover:text-white"><i className="fa-brands fa-instagram"></i></a>
@@ -920,7 +920,7 @@ import React, { useState } from 'react';
                 </div>
               </div>
               <div className="mt-10 flex flex-col gap-4 border-t border-stone-800 pt-6 text-xs text-stone-500 md:flex-row md:items-center md:justify-between">
-                <p>© 2026 Aapla Jalgaonwala. All Rights Reserved. Crafted with pure ingredients.</p>
+                <p>© 2026 Banana Chipso. All Rights Reserved. Crafted with pure ingredients.</p>
                 <div className="flex flex-wrap items-center gap-x-4 gap-y-2"><span className="rounded-full border border-stone-700 bg-stone-800 px-4 py-2 text-stone-200">🌐 English</span><a href="#" className="hover:text-white">Privacy Policy</a><span>•</span><a href="#" className="hover:text-white">Terms of Service</a><span>•</span><a href="#" className="hover:text-white">Shipping Policy</a></div>
               </div>
             </div>
