@@ -34,6 +34,8 @@ import React, { useState } from 'react';
       { id: 15, name: 'Barbeque Flavour Banana Chips | Aapla...', tag: 'BARBEQUE', category: 'Masala', rating: '4.9', desc: 'Crispy banana chips with smoky BBQ flavour.', price: 79, badge: 'Fresh Batch', size: '160G' }
     ];
 
+
+
     // Regular Family Packs
     const familyPacks = [
       { id: 101, name: 'Long Banana Chips', discount: '20% OFF', rating: '4.9', desc: 'Authentic snack handcrafted with traditional spices.', priceRange: '₹70 - ₹340', sizes: '200g - 1kg' },
@@ -136,16 +138,52 @@ import React, { useState } from 'react';
                 
               </div>
 
-              <nav className="hidden md:flex items-center space-x-6 text-xs font-bold text-gray-700">
-                <a href="#" className="text-maroon font-bold border-b-2 border-maroon pb-1">Home</a>
-                <a href="#" className="hover:text-maroon transition">Shop</a>
-                <a href="#" className="hover:text-maroon transition flex items-center gap-1">Categories <i className="fa-solid fa-chevron-down text-[10px]"></i></a>
-                <a href="#" className="hover:text-maroon transition text-orange-600 font-bold flex items-center gap-1">
-                  <i className="fa-solid fa-gift"></i> Navratri Offer 🎁
-                </a>
-                <a href="#" className="hover:text-maroon transition flex items-center gap-1">Explore <i className="fa-solid fa-chevron-down text-[10px]"></i></a>
-                <a href="#" className="hover:text-maroon transition">Contact Us</a>
-              </nav>
+
+
+             <nav className="hidden md:flex items-center space-x-6 text-xs font-bold text-gray-700">
+  <a href="#" className="text-maroon font-bold border-b-2 border-maroon pb-1">
+    Home
+  </a>
+
+  <a href="#shop-section" className="hover:text-maroon transition">
+    Shop
+  </a>
+
+  <a href="#categories-section" className="hover:text-maroon transition flex items-center gap-1">
+    Categories <i className="fa-solid fa-chevron-down text-[10px]"></i>
+  </a>
+
+  <a href="#diwali-special" className="hover:text-maroon transition text-orange-600 font-bold flex items-center gap-1">
+    <i className="fa-solid fa-gift"></i> Navratri Offer 🎁
+  </a>
+
+
+
+
+<a
+  href="#contact-section"
+  onClick={(e) => {
+    e.preventDefault();
+    const contact = document.getElementById("contact-section");
+    if (contact) {
+      contact.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+  }}
+  className="hover:text-maroon transition cursor-pointer"
+>
+  Contact Us
+</a>
+
+
+</nav>
+
+
+
+
+
 
               <div className="aj-header-actions flex items-center space-x-3">
                 <button className="p-2 text-gray-600 hover:text-maroon rounded-full hover:bg-orange-50"><i className="fa-solid fa-magnifying-glass"></i></button>
@@ -692,7 +730,7 @@ import React, { useState } from 'react';
            
 
            
-          <section className="bg-[#FAF6F0] py-16 px-4 border-t border-orange-100">
+          <section id="explore-section" className="bg-[#FAF6F0] py-16 px-4 border-t border-orange-100">
             <div className="w-full max-w-none mx-auto text-center">
               <span className="inline-block bg-[#F8E8DF] text-[#D9531E] text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full mb-4">
                 FARM-TO-PACKET CRAFTSMANSHIP
@@ -808,7 +846,7 @@ import React, { useState } from 'react';
 
 
           {/* Visit Our Physical Store */}
-          <section className="bg-white py-16 md:py-20 px-4">
+          <section id="contact-section" className="bg-white py-16 md:py-20 px-4 scroll-mt-24">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
               <div className="px-7 py-7">
                 <span className="inline-flex items-center rounded-full border border-[#FAD4C7] bg-[#FFF0EB] px-3 py-1 text-xs font-semibold tracking-widest text-[#D84315]">Our Retail Outlet</span>

@@ -38,7 +38,7 @@
   mappings.forEach(([id,terms])=>{let sec=findSection(terms);if(sec&&!sec.id)sec.id=id;});
   let home=$('#root > div');if(home&&!home.id)home.id='home';
  }
- function scrollToId(id){let el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'});else toast('Section abhi available nahi hai');}
+ function scrollToId(id){let el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'});}
  function closeOverlay(){if(overlay){overlay.remove();overlay=null;document.body.style.overflow='';}}
  function showOverlay(content,center=false){closeOverlay();overlay=document.createElement('div');overlay.className='aj-overlay'+(center?' aj-center':'');overlay.innerHTML=content;document.body.appendChild(overlay);document.body.style.overflow='hidden';overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('[data-aj-close]'))closeOverlay()});}
  function headerTitle(title,subtitle=''){return `<div class="flex items-start justify-between gap-4 mb-6"><div><div class="aj-chip mb-3">BANANA CHIPSO</div><h2 class="text-2xl font-black text-stone-900">${title}</h2>${subtitle?`<p class="text-sm text-stone-500 mt-2">${subtitle}</p>`:''}</div><button class="aj-close" data-aj-close aria-label="Close"><i class="fa-solid fa-xmark"></i></button></div>`}
